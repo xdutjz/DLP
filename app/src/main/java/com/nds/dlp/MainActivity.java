@@ -34,9 +34,9 @@ public class MainActivity extends AppCompatActivity{
     public ArrayList<String> NormalProtectApps = new ArrayList<String>();
 
     private SharedPreferences AllAppsSP;
-    private SharedPreferences AllProtectSP;
-    private SharedPreferences NoProtectSP;
-    private SharedPreferences NormalProtectSP;
+    public SharedPreferences AllProtectSP;
+    public SharedPreferences NoProtectSP;
+    public SharedPreferences NormalProtectSP;
 
     private ListView listView;
     private listadapter mAdapter;
