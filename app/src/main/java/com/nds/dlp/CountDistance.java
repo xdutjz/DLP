@@ -38,7 +38,7 @@ public class CountDistance {
                     if (getCell.getTagno() == (int)TagNoToUse.get(x)){
                         double NowCellTowerDistance = CountOfCoordinate(givenLon, givenLat,
                                 getCell.getLon(), getCell.getLat());
-                        System.out.println(getCell.getCell() + "distance" + NowCellTowerDistance);
+                        //System.out.println(getCell.getCell() + "distance" + NowCellTowerDistance);
                         if (closestCellTowerDistance - NowCellTowerDistance > 1E-16 ){
                             returnArraylist.clear();
                             closestCellTowerDistance = NowCellTowerDistance;
