@@ -61,7 +61,7 @@ public class GetLocation extends Service {
         final Intent intent = new Intent(this, MainActivity.class);
         PendingIntent pi = PendingIntent.getActivity(this, 0, intent, 0 );
         Notification notification = new NotificationCompat.Builder(this, "default")
-                .setContentTitle("Hook5").
+                .setContentTitle("DLP Services Activated.").
                         setContentText("Running").
                         setWhen(System.currentTimeMillis()).
                         setSmallIcon(R.mipmap.ic_launcher).
